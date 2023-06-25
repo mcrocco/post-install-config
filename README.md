@@ -32,11 +32,18 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 <img src="https://i.imgur.com/PThKrcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Roles in a ticketing system are what access and permissions is set to an employee to ensure the smooth operation and management of ticket-related processes. For example, we can create a "Supreme Admin" role to give whoever is assigned this role full access and permissions, since administrators typically oversee an entire ticketing system. To do this, log in to a user admin account we created previously, select Admin Panel, then Agents and finally Roles. By clicking Add New Role, we can name it Supreme Admin, along with toggling which Permissions we want to whoever is assigned to this role. Because this is just an example of a "Supreme Admin", add all permissions and select Add Role. 
+
 <img src="https://i.imgur.com/XPB8JFE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Departments in a ticketing system are used to categorize employees to where they handle different aspects of ticket-related processes. In osTicket, departments such as Support are created by default, which are tasked with addressing customer inquiries and issues. We can create a department called System Administrators, in which those assigned to this department are more responsible for internal staff requests and overseeing system-related problems. To create this department, go to Admin Panel, Agents, Departments and finally Add New Department. From there, you can name is System Administrators, as well as assign it a SLA and add agents to this department. 
+
 <img src="https://i.imgur.com/ZLJsgoD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Teams in a ticketing system are used to grab "the best of the best" from each department for critical issues or periods of downage in the business. To create a team such as Level II Support, go to Admin Panel, Agents, Teams and finally Add New Team. You can also select which agents are apart of the team when creating a new team. 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
@@ -44,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/05tqNkP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Agents in a ticketing system is another word for employees who will be responding and resolving tickets. To create an agent in osTicket, in this case it will be John Doe, go to Admin Panel, Agents, and Add New Agent. From here, fill out a name, email, along with a username and password. In addition, select Set Password and turn off "send the agent a password reset email" to input a password for this agent (This is only for lab purposes so we can login to John's account later. In real life, make sure this option stays on so the employee themselves can create a secure password). Make sure to give this agent access to the System Admins department and Supreme Admin role to work with example tickets later. 
 </p>
 <br />
 
@@ -52,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/aIIyw84.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Users in a ticketing system is another word for customers who are having an issue and submitting a ticket to the osTicket system. To create a user (in this example it will be Ken), go to Agent Panel, Users and then Add User. Simply put in a name and email address to create a user. 
 </p>
 <br />
 
