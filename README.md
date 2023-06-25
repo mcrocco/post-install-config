@@ -67,7 +67,7 @@ Users in a ticketing system is another word for customers who are having an issu
 <img src="https://i.imgur.com/ERAGM2g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Service Level Agreements or SLAs define the agreed-upon response and resolution times for tickets raised by customers. To create SLAs in osTicket, go to Admin Panel, Manage, SLA and Add New SLA Plan. Selecting this give you the option to name the SLA, give it a grace period and schedule. For example, in the picture above an SLA called Sev-A was created with the idea that Business Critical issues will be assigned to this SLA. So, a grace period of an hour was given to Sev-A, along with a 24/7 schedule. 
 </p>
 <br />
 
@@ -75,6 +75,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/mBPYBFN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Help Topics in a ticketing system are used by customers when creating a ticket, in which it will assist classifying and routing tickets to the correct department or support team. To create a help topic such as "Business Critical Outage" go to Admin Panel, Help Topics and then Add New Help Topic. From here you can name and give a description to this new help topic. The picture above shows examples of other help topics created through osTicket. 
 </p>
 <br />
